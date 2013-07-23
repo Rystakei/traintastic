@@ -21,6 +21,8 @@ class Train
 
 def trip_distance(duration)
   duration / @speed
+  #This comment is the new thing in 1-add-trip-distance branch
+
 end
 
   # Returns the String type of power for this train.
