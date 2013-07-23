@@ -22,6 +22,7 @@ class Train
 def trip_distance(duration)
   duration * @speed
   #This comment is the new thing in 1-add-trip-distance branch
+  #But for future reference, 1-add-trip-distance should be 2-add-trip-distance in order to reference issue 2
 
 end
 
