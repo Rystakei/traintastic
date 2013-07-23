@@ -16,11 +16,11 @@ class Train
   #
   # Returns the Integer time of the trip.
   def trip_duration(distance)
-    distance * @speed
+    distance / @speed
   end
 
 def trip_distance(duration)
-  duration / @speed
+  duration * @speed
   #This comment is the new thing in 1-add-trip-distance branch
 
 end
